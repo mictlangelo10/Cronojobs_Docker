@@ -10,7 +10,7 @@ RUN rm -rf /usr/share/nginx/html/*
 # Copiar el contenido de la configuración de nginx.conf, 
 # mime.types y el directorio sistema-ventas-front a sus respectivas carpetas.
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY cronojobs_front /usr/share/nginx/html
+COPY CronoJobs_Frontend_Compile /usr/share/nginx/html
 COPY mime.types /etc/nginx/mime.types
 
 # Exponer el puerto 80.

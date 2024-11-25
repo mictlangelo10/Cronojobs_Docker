@@ -232,7 +232,7 @@ INSERT INTO `suscripcion` VALUES (1,'Básico'),(2,'Pro'),(3,'Premium');
 INSERT INTO `empresa` VALUES (1,'GSW de Guanajuato','México','37800','Guanajuato','Dolores Hidalgo','Lindavista','Caoba','5','2024-01-01',1);
 INSERT INTO `area` VALUES (1,'Montaje',1),(2,'Pintura',1),(3,'Ensamblaje',1),(4,'Control de calidad',1);
 INSERT INTO `usuario` VALUES 
-(1,'Juan','Pérez','García','juan@cronojobs.com','123','555-555-5555','Masculino','1980-01-01',1,NULL,1),
+(1,'Juan','Pérez','García','miguehdzss29@gmail.com','Root123.','555-555-5555','Masculino','1980-01-01',1,NULL,1),
 (2,'María','López','Hernández','maria.lopez@cronojobs.com','123456','555-555-5556','Femenino','1985-02-02',1,NULL,1),
 (3,'Angel','García','Pérez','carlos.garcia@cronojobs.com','123456','555-555-6666','Masculino','1970-01-01',2,NULL,1),
 (4,'Pedro','González','Rodríguez','pedro.gonzalez@cronojobs.com','123456','555-555-5557','Masculino','1990-03-03',4,1,1),

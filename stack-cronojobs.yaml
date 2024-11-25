@@ -23,7 +23,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - ./dbfiles:/docker-entrypoint-initdb.d
+      - ./DB_Files:/docker-entrypoint-initdb.d
       - ./mysql_files:/var/lib/mysql/
     environment:
       MYSQL_ROOT_PASSWORD: Root123.
@@ -46,7 +46,7 @@ services:
       context: ./CronoJobs_Backend
     container_name: cronojobs-back
     ports:
-      - 8080:3000
+      - 3000:3000
     depends_on:
       - mysql-db
     deploy:
